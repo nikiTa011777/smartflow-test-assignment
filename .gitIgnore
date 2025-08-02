@@ -1,0 +1,29 @@
+# Node.js
+node_modules/
+dist/
+*.log
+
+# Playwright test results
+test-results/
+playwright-report/
+*.zip
+*.mp4
+*.webm
+
+# VSCode settings (optional)
+.vscode/
+
+# Environment variables
+.env
+.env.local
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Optional: Ignore screenshots/videos if generated
+screenshots/
+videos/
+
+# Optional: ignore Allure or other reports
+allure-results/
