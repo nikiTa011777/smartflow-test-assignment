@@ -1,0 +1,21 @@
+Project Name: SmartFlow E2E Test Automation  
+Technology: Playwright with TypeScript  
+
+Description:  
+This project automates a basic end-to-end workflow on the SmartFlow Cloud demo site. It includes login, form creation, form data validation, and logout functionalities.
+
+Test Workflow Includes:
+
+1. Login with domain, username, and password  
+2. Navigate to "Wizard form" and submit a form  
+3. Go to "My Forms" and verify the submitted data  
+4. Logout and verify redirection to login screen  
+
+Setup and Run Instructions:
+
+- The .env file with test credentials has already been pushed for testing purposes only.  
+- Open terminal in the project root.  
+- Run the following commands:
+
+    npm install  
+    npx playwright test  
